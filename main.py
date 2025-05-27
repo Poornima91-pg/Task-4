@@ -199,7 +199,7 @@ duplicate=[]
 # Loop through the first list and check for duplicates in the other two lists
 for i in lst1:
     # if the element is present in both lst2 and lst3, append it to the duplicate list
-    if i in (lst2 and lst3):
+    if i in lst2 and i in lst3:
         duplicate.append(i)
 
 # Display the duplicates found in the three lists
